@@ -80,6 +80,7 @@ public class StudentForm extends javax.swing.JFrame {
         jTextField13 = new javax.swing.JTextField();
         jLabel21 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
+        jButton3 = new javax.swing.JButton();
 
         jLabel1.setText("Student Registration Form");
 
@@ -130,7 +131,6 @@ public class StudentForm extends javax.swing.JFrame {
         jLabel22.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL1-PC18\\Downloads\\pngtree-background-aesthetic-color-paste.jpg")); // NOI18N
         jLabel22.setText("jLabel22");
 
-        jLabel24.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL1-PC18\\Desktop\\back.jpg")); // NOI18N
         jLabel24.setText("jLabel24");
 
         jLabel23.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL1-PC18\\Downloads\\pngtree-background-aesthetic-color-paste.jpg")); // NOI18N
@@ -223,6 +223,9 @@ public class StudentForm extends javax.swing.JFrame {
         getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 370, -1, -1));
         getContentPane().add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 270, -1, -1));
 
+        jButton3.setText("jButton3");
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 480, -1, -1));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -264,6 +267,7 @@ public class StudentForm extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox2;
     private javax.swing.JCheckBox jCheckBox3;
