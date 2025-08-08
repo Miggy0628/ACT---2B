@@ -63,7 +63,7 @@ public class AgeVer extends javax.swing.JFrame {
         }
         
         else{
-        JOptionPane.showMessageDialog(null, "", "",JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "INVALID INPUT","VOTING",JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
