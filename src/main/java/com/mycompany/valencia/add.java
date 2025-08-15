@@ -26,7 +26,6 @@ public class add extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        valencia1 = new com.mycompany.valencia.Valencia();
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -137,6 +136,5 @@ public class add extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JTextField txtnum1;
     private javax.swing.JTextField txtnum2;
-    private com.mycompany.valencia.Valencia valencia1;
     // End of variables declaration//GEN-END:variables
 }

@@ -81,6 +81,7 @@ public class StudentForm extends javax.swing.JFrame {
         jLabel21 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
+        jLabel26 = new javax.swing.JLabel();
 
         jLabel1.setText("Student Registration Form");
 
@@ -226,6 +227,10 @@ public class StudentForm extends javax.swing.JFrame {
         jButton3.setText("jButton3");
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 480, -1, -1));
 
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/valencia/Grey Blue Modern.png"))); // NOI18N
+        jLabel26.setText("jLabel26");
+        getContentPane().add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(-720, -200, -1, -1));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -290,6 +295,7 @@ public class StudentForm extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
