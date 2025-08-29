@@ -3,6 +3,7 @@
  */
 
 package com.mycompany.valencia;
+import java.util.Scanner;
 
 /**
  *
@@ -11,6 +12,56 @@ package com.mycompany.valencia;
 public class Valencia {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner input = new Scanner(System.in);
+        System.out.println("[1] - Rock");
+        System.out.println("[2] - Paper");
+        System.out.println("[3] - Scissors");
+        
+        System.out.println("Enter Player 1");
+        int x = input.nextInt();
+        System.out.println("Enter Player 2");
+        int y = input.nextInt();
+        
+        if (x == 1 && y == 1)
+        {
+            System.out.println("Draw");
+        }
+        else if (x == 1 && y == 2 )
+        {
+               System.out.println("Player 2 Win");
+        }
+        else if (x == 1 && y == 3)
+        {
+               System.out.println("Player 1 Win ");
+        }
+        else if (x == 2 && y == 1)
+        {
+               System.out.println("Player 1 Win");
+        }
+        else if (x == 2 && y == 2)
+        {
+               System.out.println("Draw");
+        }
+        else if (x == 2 && y == 3)
+        {
+              System.out.println("Player 2 Win");
+        }
+        else if (x == 3 && y == 1)
+        {
+              System.out.println("Player 2 Win");
+        }
+        else if (x == 3 && y == 2)
+        {
+              System.out.println("Player 1 Win");
+        }
+        else if (x == 3 && y == 3)
+        {
+              System.out.println("Draw");
+        }
+        else
+        {
+              System.out.println("Invalid Input");
+        }    
+        
     }
 }
